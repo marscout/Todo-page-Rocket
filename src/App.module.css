@@ -1,0 +1,31 @@
+.content{
+    max-width: 40rem;
+    margin: -2rem auto 2rem;
+    padding: 0 1rem;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+header{
+    background: var(--Gray-700, #0D0D0D);
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.75rem;
+}
+header span{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.do{
+
+    color: var(--purple-500);
+}
+
+.to{
+    color: var(--blue-300);
+}

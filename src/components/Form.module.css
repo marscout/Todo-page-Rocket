@@ -1,0 +1,90 @@
+.formTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btnTodo{
+    padding: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: var(--gray-100);
+    background-color: var(--blue-500);
+    line-height: 1.4;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 8px;
+
+    transition: background-color 0.1s;
+}
+
+.btnTodo:hover{
+    background-color: var(--blue-300);
+}
+
+.inputTodo{
+    background-color: var(--gray-500);
+    border: none;
+    padding: 1rem;
+    line-height: 1.4;
+    color: var(--gray-300);
+    border-radius: 8px;
+
+    border: 1px solid var(--gray-700);
+
+    flex: 1;
+}
+
+.taskArea{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.taskInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskInfo span{
+    font-weight: bold;
+}
+
+.taskInfo span + span{
+    font-weight: bold;
+    margin: 0.5rem;
+    border-radius: 80px;
+    padding: 0.125rem  0.5rem;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+}
+.fontPurple{
+    color: var(--purple-300);
+}
+.fontBlue{
+    color: var(--blue-300);
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-radius: 8px;
+    border-top: solid 1px var(--gray-400);
+}
+
+.emptyTasks{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    height: 10rem;
+}
+
+strong, span{
+    color: var(--gray-300);
+}
